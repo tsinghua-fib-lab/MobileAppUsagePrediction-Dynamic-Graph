@@ -15,8 +15,6 @@ import json
 from graph import Graph
 from utils import *
 
-
-setproctitle.setproctitle("dim8@hzh")
 os.environ['CUDA_VISIBLE_DEVICES'] = '5'
 
 def parse_args():
